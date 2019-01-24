@@ -187,12 +187,16 @@ textarea{
   }
 .portfolio-images{
     
-    max-width: 300px;
+    max-width: 250px;
+    /* max-height: 250px; */
     height: auto;
     flex-wrap: wrap;
 }
-/* .overlay{
+.overlay{
     margin-top: -50px;
     color: white;
     background-color: var(--theme-color-1);
-} */
+    max-width: 250px;
+    height: auto;
+    text-align: center;
+}
