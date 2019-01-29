@@ -45,26 +45,26 @@ header, section, footer{
 header{
     grid-row: 2 / 3;
 }
-#filler-top-left{
+.filler-top-left{
     grid-row: 2 / 3;
     grid-column-start: 1;
     grid-column-end: 1;
 } 
-#filler-top-right{
+.filler-top-right{
     grid-row: 2 / 3;
     grid-column-start: 3;
     grid-column-end: 4;
 }
-#filler-bottom-left{
+.filler-bottom-left{
     grid-column: 1 / 2;
     grid-row: 4 / 5;
 }
-#filler-bottom-right{
+.filler-bottom-right{
     grid-column: 3 / 4;
     grid-row: 4 / 5;
 }
 
-#filler-left-col{
+.filler-left-col{
     grid-column: 1 / 2;
     grid-row: 3 / 4;
 }
@@ -84,10 +84,10 @@ header{
 section{
     grid-row-start: 3;
 }
-#content{
+.content{
     background: var(--content-background);
 }
-#form-container{
+.form-container{
     grid-column: 2 / 3;
     grid-row-start: 3;   
 }
@@ -139,7 +139,7 @@ p{
 #contact-header{
     color: var(--theme-color-1);
 }
-#form-container{
+.form-container{
     text-align: left;
     padding: 2rem 1rem 5rem 1rem;
     background: var(--content-background);
