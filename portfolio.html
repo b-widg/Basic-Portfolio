@@ -4,93 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>About Me</title>
 </head>
 <body>
-    
-    <div class="container">
-        <div class="top-filler filler-pattern"></div>
-        <div class="filler-top-left filler-pattern"></div>
 
-        <header>
-            <h1 id="my-name">Brian Widgeon</h1>
+    <header id="masthead">
+        <div class="container">
+                <a href="index.html" id="logo">Brian Widgeon</a>
             <nav>
-                <a href="index.html" class="nav-links" id="about">About</a>
-                <a href="portfolio.html" class="nav-links" id="portfolio"><strong><u>Portfolio</u></strong></a>
-                <a href="contact.html" class="nav-links" id="contact">Contact</a>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfilio</a>
+                <a href="contact.html">Contact</a>
             </nav>
-        </header>
-        <div class="filler-top-right filler-pattern"></div>
+        </div>
+    </header>
 
-        <div class="filler-left-col filler-pattern"></div>
+    <div id="main-container" class="container">
+        <section class="main-section">
 
-        <div class="form-container">
-        
-            
+            <h1>Portfolio</h1>
 
-            <h1 id="contact-header">Portfolio</h1>
-
-            <hr>
-
-            <diV id="portfolio-container">
-    
-
-
-                <div class='row'>
-                    <div class='column'>
-                            <img class="portfolio-images" src="assets/images/desk-top.png" alt="Desk Top App">
-                            <a href="#" class="overlay">Desk Top Apps</a>
-                    </div>
-                    <div class='column'>
-                            <img class="portfolio-images" src="assets/images/charts-640.png" alt="Chart Image">
-                            <a href="#" class="overlay">Data Visualization</a>
-                    </div>
-                </div>
-
-                <div class='row'>
-                    <div class='column'>
-                        <img class="portfolio-images" src="assets/images/tablet-health-640.png" alt="Health App">
-                        <a href="#" class="overlay">Health And Wellness</a>
-                    </div>
-                    <div class='column'>
-                        <img class="portfolio-images" src="assets/images/cyber-stuff.png" alt="Super Tech">
-                        <a href="#" class="overlay">Super Tech</a>
-                    </div>
-                </div>
-
-                <div class='row'>
-                    <div class='column'>
-                        <img class="portfolio-images" src="assets/images/Social-Media-640.png" alt="Social Media App">
-                        <a href="#" class="overlay">Social Media</a>
-                    </div>
-                    <div class='column'>
-                        <img class="portfolio-images" src="assets/images/tablet-science-640.png" alt="Stem Apps">
-                        <a href="#" class="overlay">STEM Apps</a>
-                    </div>
-                </div>
-
-
-
-            
+            <div class="work">
+               <a href="https://b-widg.github.io/GIPHY_Search/"><img src="assets/images/tumblr_nb4z62cjaL1ry46hlo1_500.gif" alt="Desk Top" class="auth-image">
+                <h3>GIPHY GIF Search</h3></a>
+            </div>
+            <div class="work">
+                <a href="https://b-widg.github.io/Word-Guess-Game/"><img src="assets/images/GOT_Guess.PNG" alt="Chart and Graphs"class="auth-image">
+                <h3>GOT Word Guess</h3></a>
+            </div>
+            <div class="work">
+                <a href="https://b-widg.github.io/StarWarsRPG/"><img src="assets/images/x-wing-bg.jpg" alt="Medical Images On Tablet" class="auth-image">
+                <h3>Star Wars RPG</h3></a>
+            </div>
+            <div class="work">
+                <a href="https://github.com/b-widg/liri-bot"><img src="assets/images/liri-bot.png" alt="liri-bot" class="auth-image">
+                <h3>Liri-Bot</h3></a>
+            </div>
+            <div class="work">
+                <a href="https://github.com/b-widg/bamazon"><img src="assets/images/Bamazon2-SuccessfulOrder.PNG" alt="BAMAZON!" class="auth-image">
+                <h3>BAMAZON!</h3></a>
             </div>
 
-        </div>
 
+        </section>
 
-        <div id="filler-right-col" class="filler-pattern"></div>
-        
-        <div class="filler-bottom-left filler-pattern"></div>
-            <footer>
-                Why does Snoop Dog like my footer??? 🤔  Because it's STICKY ICKY ICKY!!! 🤣
-            </footer>
-        <div class="filler-bottom-right filler-pattern"></div>
-        <div class="bottom-filler filler-pattern"></div>
-
-     
-
-
-
+        <section class="sidebar">
+            <div id="connect">
+                <h2>Connect With Me</h2>
+                <a href="https://github.com/b-widg"><img src="assets/icons/GIT_Hub.svg" alt="GIT Hub" class="social-media-icons"></a>
+                <a href="https://www.linkedin.com/in/brian-widgeon-2ab389172/"><img src="assets/icons/linkedin.svg" alt="Linked In " class="social-media-icons"></a>
+                <a href="https://stackoverflow.com/users/2736518/user2736518?tab=profile"><img src="assets/icons/stackoverflow.svg" alt="Stack Overflow" class="social-media-icons"></a>
+            </div>
+        </section>
     </div>
+    <footer>
+        <div class="container">
+            &copy; Copyright: It's all yours! ...except for the dog.  The dog is mine!
+        </div>
+    </footer>
+
+
 
 </body>
+</html>
